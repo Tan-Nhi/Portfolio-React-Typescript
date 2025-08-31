@@ -1,9 +1,9 @@
-import nestImg from '../assets/project/nestjs.png';
-import nextjsImg from '../assets/project/nextjs.jpeg';
-import reactNativeImg from '../assets/project/react-native.png';
-import reactUltimateImg from '../assets/project/react-ultimate.png';
-import springMvcImg from '../assets/project/spring-mvc.png';
-import springRestImg from '../assets/project/spring-rest.png';
+import nestImg from 'assets/project/nestjs.png';
+import nextjsImg from 'assets/project/nextjs.jpeg';
+import reactNativeImg from 'assets/project/react-native.png';
+import reactUltimateImg from 'assets/project/react-ultimate.png';
+import springMvcImg from 'assets/project/spring-mvc.png';
+import springRestImg from 'assets/project/spring-rest.png';
 
 export const APP_DATA = {
     YOUTUBE_URL: "https://www.youtube.com/@hoidanit",
@@ -117,22 +117,23 @@ export const SKILLS_DATA = [
     'CSS',
     'Javascript',
     'Typescript',
+    'Java',
     'React',
     'Next JS',
     'Tailwind',
     'MongoDB',
     'MySQL',
     'PostgreSQL',
-    'Git',
-    'AWS',
     'Bootstrap',
-    'Docker',
-    'Go',
-    'Figma',
-    'Firebase',
     'MaterialUI',
+    "Bulma",
+    'Docker',
+    'Git',
+    'Figma',
+    'Photoshop',
     'Nginx',
-    'Strapi'
+    "Microsoft Office",
+    'ViteJS',
   ]
   
   // Choose your skills from below. Make sure it's in the same format and spelled correctly.

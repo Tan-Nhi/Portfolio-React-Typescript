@@ -3,11 +3,19 @@ import { SiUdemy } from "react-icons/si";
 import { FaTiktok } from "react-icons/fa";
 import { SiYoutubeshorts } from "react-icons/si";
 
-const SocialMedia = (props) => {
+interface IProps {
+    youtube: string;
+    tiktok: string;
+    udemy: string;
+    facebook: string;
+}
+
+const SocialMedia = (props: IProps) => {
     const { youtube, tiktok, udemy, facebook } = props;
 
     return (
         <div className="my-4 d-flex items-center gap-3">
+            {/* github,gmail  */}
             <a href={youtube} target='_blank' className="highlight" title="Youtube Hỏi Dân IT">
                 <SiYoutubeshorts size={30} />
             </a>

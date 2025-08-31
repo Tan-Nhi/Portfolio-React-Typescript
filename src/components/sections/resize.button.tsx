@@ -3,13 +3,16 @@ interface IProps {
     btnText?: string;
     btnIcons?: React.ReactNode;
     btnStyle?: React.CSSProperties;
+    onCLick?: () => void;
 }
 
 const ResizeButton = (props: IProps) => {
-    const { btnText, btnIcons, btnStyle } = props;
+    const { btnText, btnIcons, btnStyle, onCLick } = props;
 
     return (
-        <button className="resize-button" style={btnStyle}>
+        <button
+            onClick={onCLick}
+            className="resize-button" style={btnStyle}>
             <span style={{ textTransform: "uppercase" }}>{btnText}</span>
             <>{btnIcons}</>
         </button>
